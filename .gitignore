@@ -7,6 +7,7 @@
 # Email spool folder
 /app/spool/*
 /node_modules
+.idea/
 
 # Cache, session files and logs (Symfony3)
 /var/cache/*
@@ -47,5 +48,3 @@
 
 # Backup entities generated with doctrine:generate:entities command
 */Entity/*~
-
-/.idea

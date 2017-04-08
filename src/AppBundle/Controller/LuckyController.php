@@ -26,22 +26,5 @@ class LuckyController extends Controller {
 		));
 	}
 
-	/**
-	 * @param $genusName
-	 * @Route("/genus/{genusName}")
-	 * @return Response
-	 */
-	public function showAction($genusName)
-	{
-		$notes = [
-			'Octopus asked',
-			'Coś tam coś',
-			'Elo, ble, miau'
-		];
-		return $this->render('genus/show.html.twig',[
-			'name' => $genusName,
-			'notes'=> $notes
-	]);
 
-	}
 }
