@@ -25,10 +25,8 @@ class GenusController extends Controller
      */
     public function showAction($genusName)
     {
-    $notes = [];
         return $this->render('genus/show.html.twig',[
             'name' => $genusName,
-            'notes' => $notes,
         ]);
 
     }

@@ -270,8 +270,8 @@ fabric.properties
 **/Entity/*~
 
 ### Symfony Patch ###
-/web/css/
-/web/js/
+#/web/css/
+#/web/js/
 
 ### Windows ###
 # Windows thumbnail cache files
